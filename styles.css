@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D4D4AA;
+}
+
+@media screen and (max-width:800px) {
+    body{
+        background-color: #EDB458;
+    }
+    
+}
+
+@media screen and (max-width:400px) {
+    /*Anytime the page is shown on a screen, with a width from 0px to 400px wide*/
+    body{
+        background-color: #E8871E;
+        color: #f9f9f9;
+    }
+}
